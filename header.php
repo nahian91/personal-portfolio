@@ -36,9 +36,7 @@
         <div class="container-fluid">
             <!--logo-->
             <div class="logo">
-                <a href="index.html">
-                    Abdullah Nahian
-                </a>
+                <a href="<?php echo site_url();?>">Abdullah Nahian</a>
             </div>
             <!--/-->
     

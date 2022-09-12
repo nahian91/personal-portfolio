@@ -17,16 +17,12 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 <div class="widget">
                         <div class="widget-author">
                             <a href="author.html" class="image">
-                                <img src="<?php echo get_template_directory_uri();?>/assets/img/author/1.jpg" alt="">
+                                <img src="<?php echo get_template_directory_uri();?>/assets/img/me.jpg" alt="">
                             </a>
                             <h6>
-                                <span>Hi, I'm David Smith</span>
+                                <span>Hi, I'm Abdullah Nahian</span>
                             </h6>
-                            <p>
-
-                            I'm David Smith, husband and father ,
-                             I love Photography,travel and nature. I'm working as a writer and blogger with experience
-                            of 5 years until now.
+                            <p>A petite and ordinary man. I like working with web design and development. I also try to read, write and make videos on this subject.
                         </p>
                     
                     

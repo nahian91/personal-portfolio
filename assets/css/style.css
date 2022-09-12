@@ -55,7 +55,7 @@ body {
   font-family: "Muli", sans-serif;
   font-size: 16px;
   background-color: #F9F9FF;
-  color: #506172;
+  color: #333;
   font-weight: 400;
   position: relative;
 }
@@ -888,13 +888,20 @@ input:checked + .slider:before {
 	font-size: 24px;
 	color: #333;
 }
-.home.blog .blog-grid {
+.blog-grid {
 	margin-top: 140px;
 }
 .navbar .logo-white {
   display: none;
 }
-
+.categorie-title {
+	text-align: center;
+	margin-bottom: 80px;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}
 .navbar .logo .display-none {
   display: none;
 }
@@ -944,7 +951,7 @@ input:checked + .slider:before {
           box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
   position: absolute;
   background-color: #fff;
-  width: 100%;
+  width: 170px;
 }
 
 .navbar-nav li ul li a {
@@ -1099,7 +1106,7 @@ input:checked + .slider:before {
 /* ------------------------------
 		  Widget
 ------------------------------ */
-.widget {
+.widget, .page-content {
   background-color: #ffffff;
   padding: 30px;
   border-radius: 20px;
@@ -1107,7 +1114,11 @@ input:checked + .slider:before {
   -webkit-box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
           box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
 }
-
+.page-content h1 {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
+}
 .widget .title {
   margin-bottom: 20px;
 }
